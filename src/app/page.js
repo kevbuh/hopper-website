@@ -18,10 +18,11 @@ const styles = {
   text: {
     fontFamily: 'Times New Roman, Times, serif',
     fontSize: '3rem', // Adjust size as needed
-    // fontWeight: 'bold', // Optional: make it bold
+    fontStyle: 'italic', // Added to make the text italic
     color: '#000',
   },
 };
+
 
 
 // import Image from "next/image";
