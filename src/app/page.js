@@ -1,7 +1,8 @@
 export default function Home() {
   return (
     <div style={styles.container}>
-      <h1 style={styles.text}>HOPPER COMPUTER</h1>
+      <h1 style={styles.headerText}>HOPPER</h1>
+      <p style={styles.paragraphText}>a computer for the singularity.</p>
     </div>
   );
 }
@@ -9,19 +10,27 @@ export default function Home() {
 const styles = {
   container: {
     display: 'flex',
+    flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
     height: '100vh',
     margin: 0,
-    backgroundColor: '#f5f5f5', // Optional: light gray background
+    backgroundColor: '#f5f5f5',
   },
-  text: {
+  headerText: {
     fontFamily: 'Times New Roman, Times, serif',
-    fontSize: '3rem', // Adjust size as needed
-    fontStyle: 'italic', // Added to make the text italic
+    fontSize: '4rem',
+    fontStyle: 'italic',
+    color: '#000',
+  },
+  paragraphText: {
+    fontFamily: 'Times New Roman, Times, serif',
+    fontStyle: 'italic',
     color: '#000',
   },
 };
+
+
 
 
 
