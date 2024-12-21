@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div style={styles.container}>
       <h1 style={styles.headerText}>HOPPER</h1>
-      <p style={styles.paragraphText}>the singularity machine.</p>
+      <p style={styles.paragraphText}>personal ai computing</p>
     </div>
   );
 }
