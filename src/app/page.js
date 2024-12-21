@@ -1,9 +1,19 @@
+import Head from 'next/head';
+
 export default function Home() {
   return (
-    <div style={styles.container}>
-      <h1 style={styles.headerText}>HOPPER</h1>
-      <p style={styles.paragraphText}>personal ai computing</p>
-    </div>
+    <>
+      <Head>
+        <title>HOPPER</title>
+        <meta name="description" content="Personal AI computing made possible" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <div style={styles.container}>
+        <h1 style={styles.headerText}>HOPPER</h1>
+        <p style={styles.paragraphText}>AI personal computing</p>
+      </div>
+    </>
   );
 }
 
