@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "HOPPER COMPUTER",
-  description: "AI personal computing",
+  title: "Hopper",
+  description: "Personal AI Computing",
 };
 
 export default function RootLayout({ children }) {
