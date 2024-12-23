@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <div style={styles.container}>
         <h1 style={styles.headerText}>HOPPER</h1>
-        <p style={styles.paragraphText}>AI personal computing</p>
+        <p style={styles.paragraphText}>Personal AI Computing</p>
       </div>
     </>
   );
