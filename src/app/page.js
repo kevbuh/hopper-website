@@ -25,13 +25,13 @@ const styles = {
     alignItems: 'center',
     height: '100vh',
     margin: 0,
-    backgroundColor: '#fffff3',
+    backgroundColor: '#fcbc18',
   },
   headerText: {
     fontFamily: 'Times New Roman, Times, serif',
     fontSize: '4rem',
     fontStyle: 'italic',
-    color: '#fcba03',
+    color: '#000',
   },
   paragraphText: {
     fontFamily: 'Times New Roman, Times, serif',
