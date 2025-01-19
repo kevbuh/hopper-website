@@ -31,12 +31,12 @@ const styles = {
     fontFamily: 'Times New Roman, Times, serif',
     fontSize: '4rem',
     fontStyle: 'italic',
-    color: '#000',
+    color: '#fff',
   },
   paragraphText: {
     fontFamily: 'Times New Roman, Times, serif',
     fontStyle: 'italic',
-    color: '#000',
+    color: '#fff',
   },
 };
 
